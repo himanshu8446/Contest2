@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <header>
+        <div class="navbar">
+            <ul>
+              <li id="LS">Library System</li>
+              <li style="float:right"><a href="#">Logout</a></li>
+              <li style="float:right"><a href="#">Contact Us</a></li>
+                          
+              <li style="float:right"><a class="a" href="#res">Register</a></li>
+              <li style="float:right"><a class="a" href="#book">Books</a></li>
+            </ul>
+          </div>
+      
+    </header>
+
+    
+    <section class="books-details">
+      <h2 id="book">Books</h2>
+      <table
+        cellpadding="15px"
+        cellspacing="0"
+        border="1px"
+        class="table-of-details"
+      >
+        
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>
+              <a href="#">Harry Potter and the Philosopher's Stone</a>
+              <table cellspacing="0" border="1px">
+                <tr>
+                  <td>Publication Date: 1997</td>
+                </tr>
+                <tr>
+                  <td>Page count: 223</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 9780747532743</td>
+                </tr>
+              </table>
+            </td>
+            <td>J.K. Rowling</td>
+            <td>Fantasy</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <a href="#">A Game of Thrones</a>
+              <table cellspacing="0" border="1px">
+                <tr>
+                  <td>Publication Date: 1996</td>
+                </tr>
+                <tr>
+                  <td>Page count: 694</td>
+                </tr>
+                <tr>
+                  <td>ISBN: 9780553381689</td>
+                </tr>
+              </table>
+            </td>
+            <td>George R.R. Martin</td>
+            <td>Fantasy</td>
+            <td>Available</td>
+          </tr>
+        <td>3</td>
+          <td>
+            <a href="#">Hidden Treasure Inside You</a>
+            <table cellspacing="0" border="1px">
+              <tr>
+                <td>Publication Date:2010</td>
+              </tr>
+              <tr>
+                <td>Page count:19</td>
+              </tr>
+              <tr>
+                <td>ISBN:12386678</td>
+              </tr>
+            </table>
+          </td>
+          <td>Shivham kumar</td>
+          <td>horror</td>
+          <td>Availabe</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>
+            <a href="#">The Monk</a>
+            <table cellspacing="0" border="1px">
+              <tr>
+                <td>Publication Date:2009</td>
+              </tr>
+              <tr>
+                <td>Page count:120</td>
+              </tr>
+              <tr>
+                <td>ISBN:12345678</td>
+              </tr>
+            </table>
+          </td>
+          <td>Ranjan Yadav</td>
+          <td>Comedy</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>
+            <a href="#">History of The Fort</a>
+            <table cellspacing="0" border="1px">
+              <tr>
+                <td>Publication Date:2000</td>
+              </tr>
+              <tr>
+                <td>Page count:160</td>
+              </tr>
+              <tr>
+                <td>ISBN:12345678</td>
+              </tr>
+            </table>
+          </td>
+          <td>Adarsh Shrama</td>
+          <td>Comdey</td>
+          <td>Available</td>
+        </tr>
+      </table>
+    </section>
+
+    
+    <section class="registration-from" id="res">
+      <form method="post">
+        <h2 id="res">Register</h2>
+        <label for="fname"><b>First Name:</b></label>
+        <br />
+        <input type="text" id="fname" name="fname" required />
+
+        <br />
+
+        <label for="lname"><b>Last Name:</b></label>
+        <br />
+        <input type="text" id="lname" name="lname" required />
+
+        <br />
+
+        <label for="dob"><b>Date Of Birth:</b></label>
+        <br />
+        <input type="date" id="dob" name="dob" required />
+
+        <br />
+
+        <label for="age"><b>Age</b></label>
+        <br />
+        <input type="number" id="age" name="age" min="5" max="100" />
+
+        <br />
+
+        <label for="email"><b>Email:</b></label>
+        <br />
+        <input type="email" id="email" required />
+
+        <br />
+
+        <label for="password"><b>Password:</b></label>
+        <br />
+        <input type="password" id="password" pattern=".{6,}" required />
+
+        <br />
+
+        <label for="confirm-password"><b>Confirm Password:</b></label>
+        <br />
+        <input type="password" id="confirm-password" pattern=".{6,}" required />
+
+        <br />
+
+        <input id="register-btn" type="submit" value="Register" />
+
+        <br />
+      </form>
+    </section>
+  </body>
+</html>

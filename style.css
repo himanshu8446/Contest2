@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0px;
+    background-color: rgb(185, 113, 92);
+  }
+
+  .navbar {
+    background-color: #400577c5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  #LS{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .books-details {
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: aliceblue;
+    width: 600px;
+    padding: 20px;
+  }
+  .registration-from {
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 600px;
+    background-color: aliceblue;
+    padding: 20px;
+  }
+  input[type="text"],
+  input[type="date"],
+  input[type="date"],
+  input[type="number"],
+  input[type="email"],
+  input[type="password"] {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  input:hover {
+    border-color: blue;
+  }
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+  }
+  s {
+    scroll-behavior: smooth;
+  }
+  .topbar td:hover {
+    background-color: purple;
+  }
+  a.a {
+    text-decoration: none;
+    color: white;
+  }
